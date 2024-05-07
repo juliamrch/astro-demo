@@ -1,17 +1,31 @@
 ---
-const pageTitle = "🔍 About this site";
+import '../styles/global.css';
+
+const pageTitle = "About this site";
 
 const identity = {
   name: "Clever Cloud",
   country: "France",
   occupation: "Cloud Platform",
-  hobbies: ["data", "hypervisors", "runtimes"],
+  hobbies: ["data", "hypervisors", "runtimes"]
+
+};
+
+const socials ={
+    github: {
+        link: "https://github.com/CleverCloud/",
+        name: "GitHub"
+    }
 };
 
 const skills = ["Open Source", "Sozu", "Databases", "Industrial automation", "Serverless", "Writing Docs"];
 const happy = true;
 const finished = false;
 const goal = 3;
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
 ---
 
 <html lang="en">
@@ -21,6 +35,23 @@ const goal = 3;
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
+        <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+    <style  define:vars={{skillColor, fontWeight, textCase}}>
+        h1 {
+            color: purple;
+            font-size: 4rem;
+        }
+        .skill {
+            color: var(--skillColor);
+            font-weight: var(--fontWeight);
+            text-transform: var(--textCase);
+        }
+    </style>
+  </head>
 	</head>
 
 	<body>
@@ -29,20 +60,25 @@ const goal = 3;
         <a href="/blog">Blog</a>
 
 		<h1>{pageTitle}</h1>
-        <h2>This site is a demo for Clever Cloud</h2>
+        <h2>This site is a demo for
+            <a href= "https://clever-cloud.com">Clever Cloud</a>
+        </h2>
 
         <p>This site shows a working demo for Astro deployed on Clever Cloud <3</p>
-        <p>Here are a few facts about me:</p>
+        <p>Here are a few facts about us:</p>
         <ul>
             <li>We are {identity.name}.</li>
             <li>We come from {identity.country} and provide a {identity.occupation}.</li>
             {identity.hobbies.length >= 2 &&
             <li>Two of our hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+            <li>We are on 
+                <a href={socials.github.link} target="_blank" rel="noopener noreferrer">{socials.github.name}</a>
+            </li>
             }
         </ul>
         <p>Our skills are:</p>
             <ul>
-            {skills.map((skill) => <li>{skill}</li>)}
+            {skills.map((skill) => <li class="skill">{skill}</li>)}
             </ul>
 
             {happy && <p>We're happy to be learning Astro!</p>}

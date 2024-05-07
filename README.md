@@ -54,3 +54,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 - [File-based routing in Astro](https://docs.astro.build/en/basics/astro-pages/#file-based-routing)
 - [Astro page HTML](https://docs.astro.build/en/basics/astro-pages/#astro-pages)
+- [Dynamic expressions in Astro](https://docs.astro.build/en/basics/astro-syntax/#jsx-like-expressions)
+- [CSS variables in Astro](https://docs.astro.build/en/guides/styling/#css-variables)
