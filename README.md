@@ -58,3 +58,4 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [CSS variables in Astro](https://docs.astro.build/en/guides/styling/#css-variables)
 - [Astro Component Overview](https://docs.astro.build/en/basics/astro-components/)
 - [Component Props in Astro](https://docs.astro.build/en/basics/astro-components/#component-props)
+- [Component-based Design](https://www.droptica.com/blog/component-based-design/)
