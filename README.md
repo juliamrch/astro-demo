@@ -49,3 +49,8 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ## Deploy on Clever Cloud
 
 - Add `CC_WEBROOT="/dist"` to serve your static bundle
+
+## Ressources
+
+- [File-based routing in Astro](https://docs.astro.build/en/basics/astro-pages/#file-based-routing)
+- [Astro page HTML](https://docs.astro.build/en/basics/astro-pages/#astro-pages)
