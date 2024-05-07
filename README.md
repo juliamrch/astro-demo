@@ -71,3 +71,9 @@ To receive information in the HTML template of a page route, write it outside `g
 #### More
 
 - [Static Routing in Astro](https://docs.astro.build/en/guides/routing/#static-routes)
+
+### Astro Islands
+
+- [Astro Integrations Guide](https://docs.astro.build/en/guides/integrations-guide/)
+- [Using UI Framework Components in Astro](https://docs.astro.build/en/guides/framework-components/#using-framework-components)
+- [Astro client directives reference](https://docs.astro.build/en/reference/directives-reference/#client-directives)
