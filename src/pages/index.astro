@@ -20,9 +20,8 @@ const pageTitle = "Astro demo for 💡 Clever Cloud ☁️";
 		<h1>{pageTitle}</h1>
 		<Footer />
 		<script>
-			document.querySelector('.hamburger').addEventListener('click', () => {
-			  document.querySelector('.nav-links').classList.toggle('expanded');
-			});
-		  </script>
+			import "../scripts/menu.js";
+		</script>
+
 	</body>
 </html>
