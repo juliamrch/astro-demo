@@ -1,8 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/ Greeting';
 
 const pageTitle = "Astro demo for 💡 Clever Cloud ☁️";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
+  <h2>An awesome blog built with Astro</h2>
+  
+  <!-- Directive to tell Astro to send and rerun its JavaScript on the client -->
+  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
 </BaseLayout>
