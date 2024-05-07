@@ -56,3 +56,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [Astro page HTML](https://docs.astro.build/en/basics/astro-pages/#astro-pages)
 - [Dynamic expressions in Astro](https://docs.astro.build/en/basics/astro-syntax/#jsx-like-expressions)
 - [CSS variables in Astro](https://docs.astro.build/en/guides/styling/#css-variables)
+- [Astro Component Overview](https://docs.astro.build/en/basics/astro-components/)
+- [Component Props in Astro](https://docs.astro.build/en/basics/astro-components/#component-props)
