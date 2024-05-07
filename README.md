@@ -61,4 +61,4 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [Component-based Design](https://www.droptica.com/blog/component-based-design/)
 - [Astro `<slot />`](https://docs.astro.build/en/basics/astro-components/#slots)
 - [Astro layout components](https://docs.astro.build/en/basics/layouts/)
-
+- [`Astro.glob()` API documentation](https://docs.astro.build/en/reference/api-reference/#astroglob)
