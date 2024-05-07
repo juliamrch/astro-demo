@@ -62,3 +62,8 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [Astro `<slot />`](https://docs.astro.build/en/basics/astro-components/#slots)
 - [Astro layout components](https://docs.astro.build/en/basics/layouts/)
 - [`Astro.glob()` API documentation](https://docs.astro.build/en/reference/api-reference/#astroglob)
+
+### Routes
+
+If you need information to construct the page routes, write it inside `getStaticPaths()`.
+To receive information in the HTML template of a page route, write it outside `getStaticPaths()`.
