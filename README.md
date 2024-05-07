@@ -77,3 +77,9 @@ To receive information in the HTML template of a page route, write it outside `g
 - [Astro Integrations Guide](https://docs.astro.build/en/guides/integrations-guide/)
 - [Using UI Framework Components in Astro](https://docs.astro.build/en/guides/framework-components/#using-framework-components)
 - [Astro client directives reference](https://docs.astro.build/en/reference/directives-reference/#client-directives)
+
+## Build Progress
+
+✅ Build basic blog with and Astro island and custom components.
+
+⏩️ Extend with View transitions to control what happens when visitors navigate between pages. [tutorial](https://docs.astro.build/en/tutorials/add-view-transitions/)
