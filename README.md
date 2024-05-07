@@ -67,3 +67,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 If you need information to construct the page routes, write it inside `getStaticPaths()`.
 To receive information in the HTML template of a page route, write it outside `getStaticPaths()`.
+
+#### More
+
+- [Static Routing in Astro](https://docs.astro.build/en/guides/routing/#static-routes)
