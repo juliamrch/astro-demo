@@ -17,9 +17,10 @@ body {
     }
   
 h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-    }
+  color: purple;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
 /* nav styles */
 .hamburger {
     padding-right: 20px;

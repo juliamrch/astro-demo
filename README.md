@@ -59,3 +59,6 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [Astro Component Overview](https://docs.astro.build/en/basics/astro-components/)
 - [Component Props in Astro](https://docs.astro.build/en/basics/astro-components/#component-props)
 - [Component-based Design](https://www.droptica.com/blog/component-based-design/)
+- [Astro `<slot />`](https://docs.astro.build/en/basics/astro-components/#slots)
+- [Astro layout components](https://docs.astro.build/en/basics/layouts/)
+
