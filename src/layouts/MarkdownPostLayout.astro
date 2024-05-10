@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { fade } from "astro:transitions";
 const { frontmatter } = Astro.props;
 ---
 
@@ -8,7 +9,7 @@ const { frontmatter } = Astro.props;
     <p>By {frontmatter.author}</p>
     <p>Published on: {frontmatter.pubDate.toString().slice(0,10)}</p>
     
-    <p><em>{frontmatter.description}</em></p>
+    <p transition:animate={fade({ duration: '2s' })}><em>{frontmatter.description}</em></p>
     
     <div class="tags">
         {frontmatter.tags.map((tag) => (
