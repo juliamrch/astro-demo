@@ -83,3 +83,8 @@ To receive information in the HTML template of a page route, write it outside `g
 ✅ Build basic blog with and Astro island and custom components.
 
 ⏩️ Extend with View transitions to control what happens when visitors navigate between pages. [tutorial](https://docs.astro.build/en/tutorials/add-view-transitions/)
+
+
+## Authentication and route protection
+
+[How to use Auth.js in Astro](https://blog.otterlord.dev/posts/auth-astro/)
