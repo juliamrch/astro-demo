@@ -1,4 +1,5 @@
 ---
+export const prerender = true;
 import { getCollection } from "astro:content";
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPost from '../../components/BlogPost.astro';
@@ -27,4 +28,3 @@ const { posts } = Astro.props;
     {posts.map((post) => <BlogPost url={`/posts/${post.slug}/`} title={post.data.title}/>)}
   </ul>
 </BaseLayout>
-
