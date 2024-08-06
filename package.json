@@ -7,12 +7,26 @@
     "start": "astro dev --host 0.0.0.0 --port 8080",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro --host 0.0.0.0 --port 8080"
   },
   "dependencies": {
     "@astrojs/preact": "^3.2.0",
     "@astrojs/rss": "^4.0.5",
+    "@prisma/adapter-pg": "^5.15.0",
+    "@prisma/client": "^5.15.0",
     "astro": "^4.8.2",
+    "pg": "^8.11.5",
     "preact": "^10.21.0"
-  }
+  },
+  "description": "```sh npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^20.14.1",
+    "prisma": "^5.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
