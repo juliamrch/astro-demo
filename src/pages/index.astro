@@ -3,10 +3,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/ Greeting';
 
 const pageTitle = "Astro demo for 💡 Clever Cloud ☁️";
-import { Pool } from 'pg'
+import pkg from 'pg'
 import { PrismaPg } from '@prisma/adapter-pg'
 import { PrismaClient } from '@prisma/client'
 
+const {Pool} = pkg;
 const connectionString = `${process.env.DATABASE_URL}`
 
 const pool = new Pool({ connectionString })
